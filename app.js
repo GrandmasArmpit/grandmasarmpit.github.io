@@ -14,7 +14,7 @@ loginForm.addEventListener("submit", (event) => {
   const username = document.getElementById("username").value;
   const password = document.getElementById("password").value;
 
-  if (username === "Spencer" && password === "Maggie13!") {
+  if (username === "secret" && password === "secret") {
     // Successful login (you can add your logic here)
     window.location.href = "secret.html";
   } else {
