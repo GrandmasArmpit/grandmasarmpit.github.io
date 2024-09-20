@@ -86,13 +86,13 @@
   width: 100%;
   border: none;
   outline: none;
-  border-radius: 4px;-
-  background: #f77062;
+  border-radius: 4px;
+  background-color: #f77062;
   color: #fff;
 }
 
 .button:hover {
-  background: #4837ff;
+  background-color: #4837ff;
   transition: all 0.3s ease;
 }
 
@@ -254,6 +254,25 @@
     cursor: pointer;
     border-radius: 5px;
     margin-top: 30px;
+  }
+  .button:hover {
+    background: #4837ff;
+    transition: all 0.3s ease;
+  }
+}
+
+.incognitobutton {
+  display: grid;
+  place-items: center;
+  .button {
+    border: none;
+    background-color: #f77062;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 50px;
   }
   .button:hover {
     background: #4837ff;
