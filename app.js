@@ -16,7 +16,7 @@ loginForm.addEventListener("submit", (event) => {
 
   if (username === "Spencer" && password === "Maggie13!") {
     // Successful login (you can add your logic here)
-    window.location.href = "index.html";
+    window.location.href = "https://grandmasarmpit.github.io/freakbob/";
   } else {
     alert("Invalid username or password.");
   }
