@@ -206,6 +206,7 @@
 }
 
 .login__container {
+  color: black;
   text-align: center;
   height: 350px;
   width: 300px;
@@ -217,7 +218,7 @@
   }
   button {
     border: none;
-    background-color: rgb(96, 164, 140);
+    background-color: #f8ac24;
     color: #fff;
     font-size: 20px;
     padding: 10px;
@@ -239,17 +240,15 @@
 }
 
 .centerloginscreen {
-  background-color: rgb(35, 38, 41);
   display: grid;
   place-items: center;
   height: 100vh;
 }
 
 .gamescreen {
-  background-color: rgb(35, 38, 41);
   display: grid;
   place-items: center;
-  height: 100vh;
+
   .button {
     border: none;
     background-color: #f8ac24;
@@ -297,4 +296,9 @@
   img {
     width: 200px;
   }
+}
+
+body {
+  color: lightgray;
+  background-color: rgb(35, 38, 41);
 }
