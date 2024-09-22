@@ -46,6 +46,31 @@
         </ul>
       </div>
     </nav>
+    <!-- Announcement Section -->
+
+    <div class="announcement">
+      <body>
+        <div class="announcement-box" id="announcementBox">
+          <button class="close-btn" onclick="closeAnnouncement()">
+            <img src="images/X.png" alt="X" />
+          </button>
+          <div class="announcement-title">Announcement!</div>
+          <div class="announcement-content">
+            If the website says https is unsupported / not secure <br />
+            click the button below.
+          </div>
+          <br />
+          <a href="https://www.spencersforum.xyz/" class="announcement-button"
+            >Take me to Https Version</a
+          >
+        </div>
+        <script>
+          function closeAnnouncement() {
+            document.getElementById("announcementBox").style.display = "none";
+          }
+        </script>
+      </body>
+    </div>
 
     <!-- Hero Section -->
     <div class="main">

@@ -302,3 +302,52 @@ body {
   color: lightgray;
   background-color: rgb(35, 38, 41);
 }
+
+.announcement-box {
+  background-color: #444;
+  padding: 20px;
+  border: 2px solid #ff9900;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 20px 20px;
+  margin-right: 20px;
+  text-align: center;
+  position: relative;
+}
+.announcement-title {
+  font-size: 28px;
+  color: #ff9900;
+  margin-bottom: 10px;
+  font-family: "Impact", sans-serif;
+}
+.announcement-content {
+  font-size: 18px;
+  line-height: 1.5;
+}
+.announcement-button {
+  background-color: #ff9900;
+  color: #333;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+}
+.announcement-button:hover {
+  background-color: #e68a00;
+}
+
+.close-btn {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  background-color: #ff9900;
+  border-color: #ff9900;
+  border-radius: 100000px;
+  color: #333;
+  img {
+    width: 30px;
+  }
+}
