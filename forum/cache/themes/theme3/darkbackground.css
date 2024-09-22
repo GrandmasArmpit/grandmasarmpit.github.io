@@ -1,0 +1,444 @@
+::-moz-selection {
+  background: rgba(26, 85, 146, 0.99);
+ color: #e4e4e4;
+}
+
+::-webkit-selection {
+ background: rgba(26, 85, 146, 0.99);
+ color: #e4e4e4;
+
+}
+
+::selection {
+  background: rgba(26, 85, 146, 0.99);
+ color: #e4e4e4;
+}
+
+body {
+	background: #141414;
+}
+
+body, input, input.textbox, select, textarea, .thread_start_datetime {
+	color: #aaa;
+}
+
+#posts_container {
+	border: 1px solid #353535;
+}
+
+[class*="trow"] {
+	background: #181818;
+	border-bottom: 1px solid #000;
+	border-top: 1px solid #353535;
+}
+
+div[class*="trow"] {
+	border-left: 1px solid #353535;
+	border-right: 1px solid #353535;
+}
+
+.trow2 {
+	background-color: #242424;
+}
+
+.trow_sep {
+	background: #575757;
+	color: #f5f5f5;
+}
+
+.trow_shaded {
+    background: #74030c;
+    border: 1px solid;
+    border-color: #2a2a2a;
+    color: #ddd;
+}
+
+.trow_selected, tr.trow_selected td {
+    background: #665b00;
+    color: #e7e7e7;
+    border-right-color: #F7E86A;
+    border-bottom-color: #806f18;
+}
+
+.trow_selected a:link, .trow_selected a:visited, .trow_selected a:hover, .trow_selected a:active {
+    color: #dbdbdb;
+}
+
+.post.unapproved_post {
+    background: #380408;
+}
+
+.post.unapproved_post .post_author {
+    border-bottom-color: #2a2a2a;
+}
+
+.post.classic.unapproved_post .post_author {
+    border-color: #2a2a2a;
+}
+
+.trow_deleted, .post.deleted_post {
+    background: #321080;
+}
+
+#panel .upper {
+	background: #222;
+	color: #aaa;
+}
+
+.breadcrumb {
+	background-color: #222;
+	color: #aaa;
+}
+
+.post .post_author {
+	border: 1px solid #353535;
+	border-top: 2px solid #353535;
+	background: #222;
+}
+
+.post.classic .post_author {
+	border: 1px solid #353535;
+	border-top: 2px solid #353535;
+	background: #222;
+}
+
+.post .post_head {
+	border-bottom: 1px dotted #5f5f5f;
+}
+
+fieldset {
+	border: 1px solid #353535;
+}
+
+textarea {
+	background: #000;
+	border: 1px solid #303030;
+}
+
+button, input.button {
+	color: #fff;
+	background: #2980b9;
+	border: 1px solid #000;
+}
+
+input.textbox {
+	background: #000;
+	border: 1px solid #222;
+}
+
+.postbit_buttons > a:link, .postbit_buttons > a:hover, .postbit_buttons > a:visited, .postbit_buttons > a:active {
+	background: #414141;
+	border: 1px solid #1b1b1b;
+	color: #cfcfcf;
+}
+
+select {
+    color: #2980b9;
+	background: #000;
+	border: 1px solid #747474;
+}
+
+.post .post_author div.author_avatar img {
+	border: 1px solid #6c6c6c;
+	background: #3c3c3c;
+}
+
+.thead input.textbox,
+.thead select {
+ border: 1px solid #2980b9;
+}
+
+#footer {
+	background: #222;
+	border-top: 1px solid #353535;
+}
+
+.post_controls {
+	background: #222;
+	border-bottom: 1px solid #353535;
+}
+
+.poll_resultbar, .pmspace {
+	background-color: #3b3b3b;
+}
+
+legend {
+	color: #848484;
+	border-bottom: 1px dashed #353535;
+}
+
+.modal {
+	background: #1e1e1e;
+}
+
+div.jqi {
+    background-color: #1e1e1e;
+    border: solid 3px #2980b9;
+}
+
+div.jqi .jqistate {
+    background-color: #1e1e1e;
+}
+
+div.jqi .jqimessage {
+	color: #aaa;
+}
+
+div.jqi .jqibuttons {
+    border-top: solid 1px #000;
+    background-color: #343434;
+}
+
+div.jqi .jqibuttons button {
+    background-color: #474747;
+    border-left: solid 1px #606060;
+    color: #c8c8c8;
+}
+
+.select2-container-multi .select2-choices {
+    border: 1px solid #555 !important;
+	background: #292929 !important;
+}
+
+.select2-drop {
+    background-color: #333 !important;
+    color: #aaa !important;
+}
+
+.select2-drop-active {
+    border: 1px solid #3a3a3a !important;
+}
+
+.select2-results .select2-no-results, .select2-results .select2-searching, .select2-results .select2-selection-limit {
+    background-color: #333 !important;
+}
+
+div.select2-container-multi .select2-choices .select2-search-field input.select2-active {
+	background-color: #333 !important;
+}
+
+.select2-container .select2-choice {
+    background-image: none !important;
+    background-color: #000000 !important;
+    border: 1px solid #575757 !important;
+    color: #2980b9 !important;
+}
+
+.tfoot {
+	background: #2980b9;
+	border-top: 1px solid #000;
+}
+
+.active-color {
+	background-color:#2980b9;
+}
+
+.postbit_user_btn a:link, .postbit_user_btn a:visited, .postbit_user_btn a:active {
+    background: #2980b9;
+    color: #fff;
+}
+
+.panel-primary>.panel-heading {
+    background-color: #2980b9;
+    border-color: #2980b9;
+}
+
+blockquote {
+	border: 1px solid #575757;
+	border-left: 5px solid #2980b9;
+	background: #303030;
+}
+
+.codeblock {
+	border: 1px solid #575757;
+	border-left: 5px solid #2980b9;
+	background: #303030;
+}
+
+.dropdown-menu {
+	background: #1b1b1b;
+}
+
+.dropdown-menu>li>a {
+	color: #777;	
+}
+
+.label {
+    color: #c8c8c8;
+}
+
+#debug {
+    color: #aaa;
+}
+
+.thead {
+	background: #0066a2;
+	color:#f5f5f5;
+	font-weight: bold;
+}
+
+.thead a:link, .thead a:visited {
+	color:#fff;
+}
+
+.popup_menu .popup_item {
+	background: #5a5a5a;
+	color: #fff;
+}
+
+.popup_menu .popup_item:hover {
+	background: #2980b9;
+}
+
+a:link {
+	color: #2980b9;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #2980b9;
+	text-decoration: none;
+}
+
+a:hover,
+a:active {
+	color: #2980b9;
+	text-decoration: none;
+}
+
+#logo {
+	background: #2980b9;
+}
+
+#portal #nav-portal a,
+#forums #nav-forums a,
+#searchh #nav-search a,
+#member #nav-member a,
+#calendar #nav-calendar a,
+#help #nav-help a {
+    background-color: #2980b9;
+}
+
+.navbar-default {
+	background-color: #1b1b1b;
+	border-color: #000;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+     background-color: #2980b9;
+}
+
+.pagination a {
+	color: #2980b9;
+	background: #000;
+	border: 1px solid #393939;
+}
+
+.pagination a:hover {
+ background: #2980b9;
+ color: #fff;
+ border-color: #2980b9;
+ text-decoration: none;
+}
+
+.pagination .pagination_current {
+	color: #aaa;
+}
+
+.popup_menu {
+	background: #222;
+}
+
+.popup_menu .popup_item:hover {
+ background: #2980b9;
+ color: #fff;
+}
+
+.modcp_nav_item:before {
+	color: #2980b9;
+}
+
+.alert_blue
+{
+    background-color: #412362;
+    border-color: #726a0d;
+    color: #efefef;
+}
+
+.alert_blue a {
+    color: #efe800 !important;
+}
+
+.forum_on {
+color: #2980b9;
+}
+
+
+.forum_off, .forum_offclose, .forum_offlink, .subforum_minioff, .subforum_minioffclose, .subforum_miniofflink  {
+    color: #aaa;
+}
+
+
+/* Google Custom Search */
+
+.gsc-control-cse {
+	background-color: #141414 !important;
+	border-color: #353535 !important;
+}
+
+.gsc-above-wrapper-area {
+    border-bottom: 1px solid #353535 !important;
+}
+
+.gsc-webResult.gsc-result, .gsc-results .gsc-imageResult {
+	background-color: #0d0d0d !important;
+	border-color: #353535 !important;
+	border-width: 0 0 1px 0 !important;
+}
+
+.gsc-webResult.gsc-result:hover, .gsc-imageResult:hover {
+	background-color: #161616 !important;
+	border-color: #494949 !important;
+}
+
+.gs-webResult.gs-result a.gs-title:link, .gs-webResult.gs-result a.gs-title:link b, .gs-imageResult a.gs-title:link, .gs-imageResult a.gs-title:link b {
+	color: #2980b9 !important;
+}
+
+.gs-webResult.gs-result a.gs-title:visited, .gs-webResult.gs-result a.gs-title:visited b, .gs-imageResult a.gs-title:visited, .gs-imageResult a.gs-title:visited b {
+	color: #663399 !important;
+}
+
+.gs-webResult div.gs-visibleUrl, .gs-imageResult div.gs-visibleUrl {
+	color: #606060 !important;
+}
+
+.gs-result img.gs-image, .gs-result img.gs-promotion-image {
+    border: 1px solid #555555 !important;
+}
+
+.gs-webResult .gs-snippet, .gs-imageResult .gs-snippet, .gs-fileFormatType {
+	color: #aaa !important;
+}
+
+.gsc-results .gsc-cursor-box .gsc-cursor-page {
+    border-color: initial !important;
+    background-color: initial !important;
+    color: #2980b9 !important;
+}
+
+/* End Google Custom Search */
+
+/* Thank You/Like */
+.tyllist, .tyllist_classic {
+    background-color: #000 !important;
+}
+.popular_post {
+    background-color: rgb(37 78 23 / 25%)  !important;
+}
+/* End Thank You/Like */
+
+		
+		
+		
