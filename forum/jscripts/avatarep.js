@@ -1,7 +1,7 @@
 /**
 *@ Autor: Dark Neo
 *@ Fecha: 2017-22-12
-*@ Version: 2.9.9
+*@ Version: 3.0.x
 *@ Contacto: neogeoman@gmail.com
 */
 $(function(){

@@ -45,8 +45,8 @@ $l['avatarep_menu_descrip'] = "Shows a nice popup menu for mouse events selected
 $l['avatarep_menu_events'] = "Mouse events";
 $l['avatarep_menu_events_descrip'] = "Select mouse event to show modal box.";
 
-$l['avatarep_guests'] = "Guests Avatar";
-$l['avatarep_guests_descrip'] = "Shows default avatar for guests";
+$l['avatarep_letter_avatar'] =  "Avatar letters besides default avatar";
+$l['avatarep_letter_avatar_descrip'] = "Select to No if you want to show default avatars instead letters";
 
 $l['avatarep_format'] = "Display formatted usernames";
 $l['avatarep_format_descrip'] = "Shows format names for every usergroup with html code configured";
@@ -75,5 +75,10 @@ $l['avatarep_similar_threads_desc'] = "Disable if you want not to show avatar in
 $l['avatarep_usercp_tsubs'] = "Show avatars for subscribed threads templates into usercp";
 $l['avatarep_usercp_tsubs_desc'] = "Disable if you want not to show avatar into usercp subscribed threads template";
 
+$l['avatarep_postbit'] = "Replace default avatar with letters in postbit?";
+$l['avatarep_postbit_desc'] = "This will replace default avatar of users with letters only if option to show avatar letters is enabled";
+
 $l['avatarep_onerror'] = "Shows white or broken avatars as default";
 $l['avatarep_onerror_descrip'] = "If some error ocurrs when avatar is loading like img was removed or broken, then default avatar appears (This brokes w3c validation due onerror img tag js function is not validated there, Disable this option to validate with w3c).";
+
+
