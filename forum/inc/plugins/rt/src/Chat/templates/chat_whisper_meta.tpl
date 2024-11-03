@@ -1,1 +1,0 @@
-&nbsp;<img src="{$this->mybb->settings['bburl']}/images/fw_pm.png" alt="" /> {$username}

@@ -1,1 +1,0 @@
-<a id="{$row['id']}" class="rt_chat-delete" href="javascript:void(0);">{$this->lang->rt_chat_delete}</a>
